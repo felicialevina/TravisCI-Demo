@@ -3,4 +3,4 @@ python:
   - "3.7"
 install: "pip install -r requirement.txt"
 script: coverage run unittest_api.py
-after_success: bash<(sudo curl -s https://codecov.io/bash) -t 36571d25-7b19-4d43-a3e9-1653fc749dce
+after_success: bash<(sudo curl -s https://codecov.io/bash)
